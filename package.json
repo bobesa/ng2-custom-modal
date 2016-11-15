@@ -1,0 +1,26 @@
+{
+  "name": "ng2-custom-modal",
+  "version": "1.0.0",
+  "description": "Angular2 Customizable Modal",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobesa/ng2-custom-modal.git"
+  },
+  "keywords": [
+    "ng2",
+    "angular2",
+    "modal",
+    "custom"
+  ],
+  "author": "Vlastimil Šenfeld",
+  "email": "bobesa@gammosaur.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobesa/ng2-custom-modal/issues"
+  },
+  "homepage": "https://github.com/bobesa/ng2-custom-modal#readme"
+}

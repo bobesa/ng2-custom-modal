@@ -113,8 +113,8 @@ import {Modal} from 'ng2-custom-modal';
 class MyAmazingModal extends Modal {
     public myVariable: string = 'My Amazing String';
 
-    constructor() {
-        super();
+    constructor(data: any) {
+        super(data);
     }
 }
 ```

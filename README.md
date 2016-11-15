@@ -3,9 +3,12 @@ Angular2 Customizable Modal
 
 This project works currently as a simple dependency that allows you to create your own modal structure, display it on different place in dom and keep all template features and scope intact.
 
-
 ## Making it work...
 There are few things you need to do to make this work. Follow the next few steps.
+
+```bash
+$ npm install ng2-custom-modal --save
+```
 
 ### Imports to NgModule decorator
 Following things needs to be put into `@NgModule` decorator.

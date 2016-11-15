@@ -132,12 +132,6 @@ export class ModalDirective {
             this.values['modal'] = modal;
             this.values['close'] = () => { this.close(); };
 
-            // Reset styling for the dom
-            const viewDom = this.view.rootNodes[0];
-            const r = this.renderer;
-            // TODO: @Dave add classes for the modal here
-            // r.setElementClass(viewDom, 'modal', true);
-
             // Add this instance to modal
             this.modalService.show(modal);
         } else {

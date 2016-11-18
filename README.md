@@ -27,7 +27,7 @@ import { MODAL_DECLARATIONS, MODAL_PROVIDERS } from 'ng2-custom-modal';
 ```
 
 ### Modal Content directives inside your app
-In order to show all your modals in the same place in dom, create an element (`div` for example) and use `modalHolder` directive in it.
+In order to show all your modals in the same place in dom, create an element (`div` for example) and use `modal-content` directive in it.
 Just make sure you will use it only once in the whole app. There is currently no support for multiple places.
 
 ```html

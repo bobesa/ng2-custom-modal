@@ -4,7 +4,7 @@ import {Modal} from './modal.directive';
 import * as Rx from 'rxjs';
 
 /**
- * Handles Modal queue and display of ModalBackdrop
+ * Handles Modal queue and provides viewController based on ModalContent
  */
 @Injectable()
 export class ModalHelperService {

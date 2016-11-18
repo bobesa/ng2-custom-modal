@@ -2,9 +2,7 @@ import {Component, OnInit, ViewContainerRef} from '@angular/core';
 import {ModalHelperService} from './modal-helper.service';
 
 /**
- * Used for showing overlay/backdrop behind the Modal(s)
- *
- * When clicked should call close() on top-most modal
+ * Works as an anchor for displaying the Modals
  */
 @Component({
     selector: 'modal-content',
